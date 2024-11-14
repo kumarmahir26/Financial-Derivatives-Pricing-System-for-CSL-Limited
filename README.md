@@ -1,1 +1,3 @@
 # Financial-Derivatives-Pricing-System-for-CSL-Limited
+
+Developed a comprehensive financial derivatives pricing system analyzing CSL Limited stock (1996-2024) using Python. Implemented and compared three pricing models with dual volatility approaches: Black-Scholes (Standard: 12.35, GARCH: 9.58), Binomial CRR (Standard: 8.49, GARCH: 6.46), and Monte Carlo simulation with 1000 paths (Standard: 12.69, GARCH: 9.84). Statistical analysis revealed non-normal distribution of returns (p ≈ 0) and weak autocorrelation (0.047). Results demonstrated GARCH volatility consistently produced ~22-24% lower option prices across all models, suggesting standard volatility measures may overestimate option prices in this market.
